@@ -67,7 +67,8 @@ module.exports = function(grunt) {
                     keepClosingSlash: true
                 },
                 files: {
-                    'dist/index.xhtml': 'src/index.xhtml'
+                    'dist/index.xhtml': 'src/index.xhtml',
+                    'dist/about.xhtml': 'src/about.xhtml'
                 }
             }
         }
