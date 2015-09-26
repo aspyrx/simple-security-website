@@ -1,0 +1,7 @@
+.DS_STORE
+*.swp
+node_modules/
+src/style/style.css
+dist/
+*.vim
+
