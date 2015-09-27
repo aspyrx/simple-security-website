@@ -52,7 +52,7 @@ app.put('/upload/photo', function(req, res) {
                 }
 
                 fs.readdir(uploadsDir, function(err, files) {
-                    while (files.length > 15) {
+                    if (files.length > 15) {
                         fs.unlink(uploadsDir + files[0], function(err) {
                             console.log(err);
                             return;
